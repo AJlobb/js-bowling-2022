@@ -43,3 +43,38 @@ describe('Player Scored 5', () => {
         expect(player.playerKnocked5Pins()).toEqual(5)
     });
 });
+
+describe('Player Scored 6', () => {
+    it('Given a player has rolled a ball and knocked 6 pins they get 6 points', () => {
+        const player = new BowlingPlayer();
+        expect(player.playerKnocked6Pins()).toEqual(6)
+    });
+});
+
+describe('Player Scored 7', () => {
+    it('Given a player has rolled a ball and knocked 7 pins they get 7 points', () => {
+        const player = new BowlingPlayer();
+        expect(player.playerKnocked7Pins()).toEqual(7)
+    });
+});
+
+describe('Player Scored 8', () => {
+    it('Given a player has rolled a ball and knocked 8 pins they get 8 points', () => {
+        const player = new BowlingPlayer();
+        expect(player.playerKnocked8Pins()).toEqual(8)
+    });
+});
+
+describe('Player Scored 9', () => {
+    it('Given a player has rolled a ball and knocked 9 pins they get 9 points', () => {
+        const player = new BowlingPlayer();
+        expect(player.playerKnocked9Pins()).toEqual(9)
+    });
+});
+
+describe('Player Scored 10', () => {
+    it('Given a player has rolled a ball and knocked 10 pins they get 10 points', () => {
+        const player = new BowlingPlayer();
+        expect(player.playerKnocked10Pins()).toEqual(10)
+    });
+});
