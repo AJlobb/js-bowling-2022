@@ -10,8 +10,17 @@ class BowlingPlayer {
     playerKnocked2Pins = () => {
         return this.pins + 2
     }
-    
+    playerKnocked3Pins = () => {
+        return this.pins + 3
+    }
+    playerKnocked4Pins = () => {
+        return this.pins + 4
+    }
+    playerKnocked5Pins = () => {
+        return this.pins + 5
+    }
 }
+
 
 module.exports = {
     BowlingPlayer
